@@ -8,7 +8,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Pres_SpringAnnotation {
 
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext("org.example");
+        ApplicationContext applicationContext =
+                new AnnotationConfigApplicationContext("org.example");
         IMetier metier = applicationContext.getBean(IMetier.class);
         System.out.println(metier.calcul());
     }
