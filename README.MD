@@ -1,5 +1,5 @@
 <h3>Injection des dépendances </h3>
-<img src="captures/CapDe.png">
+
 <ol>
 <li>
 <p>Création d'interface IDao avec une méthode getData</p>
